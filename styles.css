@@ -1,0 +1,38 @@
+div{
+    display: flex; 
+    justify-content: center;
+    width: 60%; 
+    border: 1px solid #000000;
+    word-wrap: break-word;
+    margin: 0 auto;
+}
+/* regla para todos los elementos */
+*{
+    width: 80%;
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+    color: black;
+    writing-mode: horizontal-tb; 
+}
+h1, h2{
+    font-size: 25px;
+}
+a{
+    color: rgb(87, 87, 226);
+}
+address, li, dl{
+    line-height: 150%;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+.space{
+    word-spacing: 30px;
+}
+.signature{
+    text-decoration: overline underline;
+    writing-mode: vertical-rl;
+}
